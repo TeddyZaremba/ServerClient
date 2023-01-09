@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.text.Text?>
+
+<HBox xmlns:fx="http://javafx.com/fxml/1" fx:controller = "ClientController" fx:id="root3">
+	<!-- TODO Add Nodes -->
+	
+	<VBox fx:id="leftVB">
+		<Text fx:id="ipText" text="IP" styleClass="text"/>
+		<TextField fx:id="ipField" styleClass="textfield"/>
+		<Button fx:id="connect" text="Connect" onAction="#connectToServer" styleClass="button"/>
+	</VBox>
+	
+	<VBox fx:id="rightVB">
+		<Text fx:id="portText" text="Port" styleClass="text"/>
+		<TextField fx:id="portField" styleClass="textfield"/>
+		<Text fx:id="text" text="imhere" styleClass="text"/>
+	</VBox>
+	
+</HBox>
+

@@ -1,0 +1,22 @@
+.text {
+	-fx-font-family: SansSerif;
+	-fx-font-size: 14px;
+}
+
+.textfield{
+	-fx-font-family: SansSerif;
+	-fx-font-size: 14px;
+}
+
+.button{
+	-fx-font-family: SansSerif;
+	-fx-font-size: 14px;
+}
+
+.hboxstartup {
+    -fx-spacing	: 10;
+}
+
+.hboxscoreboard {
+    -fx-spacing	: 10;
+}
